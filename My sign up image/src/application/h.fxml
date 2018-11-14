@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="946.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <Pane prefHeight="612.0" prefWidth="642.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="316.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fitHeight="593.0" fitWidth="642.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="316.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../git/JFXsignupimage/sign%20up%20image/src/sample/nikhil-kumar-231465.jpg" />
+         </image>
+      </ImageView>
+      <VBox cache="true" cacheHint="SCALE" layoutX="681.0" prefHeight="562.0" prefWidth="259.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="681.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <JFXTextField labelFloat="true" promptText="FIRST NAME">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField labelFloat="true" promptText="LAST NAME" />
+            <JFXTextField labelFloat="true" promptText="USERNAME" />
+            <JFXTextField labelFloat="true" promptText="E-MAIL" />
+            <JFXTextField labelFloat="true" promptText="PASSWORD" />
+            <JFXTextField labelFloat="true" promptText="REPEAT PASSWORD" />
+            <JFXTextField labelFloat="true" promptText="PHONE NUMBER" />
+            <JFXToggleButton text="UNDER 18?" />
+            <JFXButton prefHeight="41.0" prefWidth="140.0" style="-fx-border-color: #8000a4; -fx-border-radius: 10px;" text="GET STARTED" textFill="#8000a4">
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#bf7872" />
+                        <Stop color="#bf78c2" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+         </children>
+      </VBox>
+      <Pane prefHeight="562.0" prefWidth="642.0" style="-fx-background-color: #7d01aeaa;">
+         <children>
+            <Label layoutX="51.0" layoutY="175.0" prefHeight="119.0" prefWidth="287.0" text="Create Your Own Account" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="33.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="51.0" layoutY="294.0" maxWidth="123.0" prefHeight="41.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px;" text="ABOUT US" textFill="#8000a4" />
+            <JFXButton layoutX="187.0" layoutY="294.0" prefHeight="41.0" prefWidth="123.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 10;" text="SIGN IN">
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" proportional="false" radius="0.5">
+                     <stops>
+                        <Stop color="#bf7872" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
